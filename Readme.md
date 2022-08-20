@@ -19,4 +19,4 @@
          * learn how to make webpage responsive using media query
 
 
-  [Deploy link](https://vedantdomde.github.io/html-css-project10/) 
+  [Deploy link](https://vedantdomde.github.io/html-css-project9/) 
