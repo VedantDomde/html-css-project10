@@ -4,6 +4,8 @@
 
 ### My final website is below.
 
+![homepage](webpage.png)
+
 
 - Time Taken:6 hour 
 

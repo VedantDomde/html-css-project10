@@ -15,11 +15,78 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-nav {
-    display: flex;
-    padding: 20px 50px;
+/*-------- --------Media Queray Start------------------------- */
+@media screen and (max-width:1048px){
+    nav h1{
+        font-size: 20px;
+    }  
 }
+@media screen and (max-width:1048px)  {
+    .nav-items{
+        margin-left: 2rem;
+    }
+    .nav-item{
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    nav h1{
+        font-size: 20px;
+    }
+    }
+    @media screen and (max-width:700px)  {
+        
+        .nav-item{
+            justify-content: space-around;
+            font-size: 15px;
+            margin-left: 1rem;
+        }
+        nav h1{
+            flex:10px;
+            font-size: 20px;
+        }
+        }
+
+        @media screen and (max-width:1048px) {
+            .contact p{
+                font-size: 15px;
+            }
+        }
+        @media screen and (max-width:1000px)  {
+            .title{
+                font-size: 40px;
+            }
+            .info-top{
+                align-self: flex-end;
+                
+            }
+           .infocard{
+            margin-right: 0%;
+           }
+           
+              
+        }
+        @media screen and (max-width:700px)  {
+            .title{
+                font-size: 20px;
+            }
+            
+           .infocard{
+            float: right;
+           }
+            
+        }
+        @media screen and (max-width:1000px) {
+            .bottom{
+                flex-direction: column-reverse;
+            }
+            .btn{
+                margin-top: 60px;
+            }    
+        }
+        
+        /*----------------- media Queray end------------------ */
+
+        /* ------------------Nav Start------------------------- */
 
 nav h1 {
     font-weight: 600;
@@ -46,10 +113,11 @@ nav h1 {
     color: #ffffff;
     flex: 65;
 
-
     border-bottom: solid #ffffff 2px;
 }
+/* --------------------------Nav End------------------------------- */
 
+/* ---------------------------Nav Contact Start--------------------- */
 
 .contact {
     display: flex;
@@ -65,11 +133,15 @@ nav h1 {
     font-size: 25px;
     color: #ffffff;
 }
+/* --------------------------------Nav Contact End--------------------- */
+
+/* ---------------------------------Main Section Start------------------- */
 
 main {
     padding: 0 50px;
     height: 50%;
 }
+/* ---------------------------------------Top Start---------------------------- */
 
 .top {
     display: flex;
@@ -87,6 +159,10 @@ main {
     flex: 25;
     align-self: flex-start;
 }
+/* -----------------------------Top End---------------------------- */
+
+/* ------------------------------Bottom Start----------------------- */
+
 
 .bottom {
     display: flex;
@@ -170,3 +246,6 @@ main {
     left: calc(100% + 80px);
     top: calc(50% - 8px);
 }
+/* -------------------------Bottom End---------------------------- */
+/* -------------------------Main Section Start------------------- */
+
