@@ -21,4 +21,4 @@
          * learn how to make webpage responsive using media query
 
 
-  [Deploy link](https://vedantdomde.github.io/html-css-project9/) 
+  [Deploy link](https://project-10-ce72ad.netlify.app/) 
